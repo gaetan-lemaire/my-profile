@@ -1,0 +1,103 @@
+body{
+    background: linear-gradient(90deg, #e8e8e8 50%, #A48A8A 50%);
+  }
+.card-white{
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    background: white;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 8px;
+    }
+  .h2{
+    padding: 50px;
+    margin: 10px;
+  }
+  .bodycontainer{
+    font-family: helvetica,serif;
+  }
+  .portfolio{
+    padding:6%;
+    text-align:center;
+  }
+  .heading{
+    background: #fff;
+    padding: 1%;
+    text-align: left;
+    box-shadow: 0px 0px 4px 0px #545b62;
+  }
+  .heading img{
+    width: 10%;
+  }
+  .bio-info{
+    padding: 5%;
+    background:#fff;
+    box-shadow: 0px 0px 4px 0px #b0b3b7;
+  }
+  .name{
+    font-family: 'Helvetica', sans-serif;
+    font-weight:300;
+  }
+  .bio-image{
+    text-align:center;
+  }
+  .bio-image img{
+        border-radius: 50%;
+        text-align: center;
+  }
+
+  .bio-content{
+    text-align:left;
+    font-family: Helvetica,serif;
+  }
+  .bio-content h1{
+    font-family: Helvetica, serif;
+  }
+  .bio-content p{
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+    font-weight:200;
+    font-size:15px;
+  }
+  .button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  }
+  .a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  }
+  .button:hover, a:hover {
+  opacity: 0.7;
+  }
+  .btn-blue{
+    background-color: blue;
+    color: white;
+    padding:  5px 10px  ;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+@media(max-width: 500px) {
+  .bodycontainer{width: 400px;
+  }
+ }
+@media(max-width: 500px) {
+  .container-portofolio {
+    width: 400px;
+  }
+}
+@media(max-width: 760px) {
+  .container-portofolio {
+    width: 600px;
+  }
+}
+
